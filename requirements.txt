@@ -1,0 +1,5 @@
+# Deliberately minimal. No ccxt, no TA-Lib, no python-telegram-bot —
+# nothing that breaks when a third party changes a handler signature.
+aiohttp>=3.9,<4
+pandas>=2.0
+numpy>=1.24
